@@ -1,0 +1,21 @@
+﻿Build started 1/10/2017 4:54:40 PM.
+     1>Project "B:\c++\binarySearchTreeWorkingWithBinaryFiles\binarySearchTreeWorkingWithBinaryFiles\binarySearchTreeWorkingWithBinaryFiles.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt readingInfoFromBinFileAndStandardInput.cpp
+         readingInfoFromBinFileAndStandardInput.cpp
+     1>b:\c++\binarysearchtreeworkingwithbinaryfiles\binarysearchtreeworkingwithbinaryfiles\readinginfofrombinfileandstandardinput.cpp(85): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>b:\c++\binarysearchtreeworkingwithbinaryfiles\binarysearchtreeworkingwithbinaryfiles\readinginfofrombinfileandstandardinput.cpp(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"B:\c++\binarySearchTreeWorkingWithBinaryFiles\Debug\binarySearchTreeWorkingWithBinaryFiles.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"B:\c++\binarySearchTreeWorkingWithBinaryFiles\Debug\binarySearchTreeWorkingWithBinaryFiles.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"B:\c++\binarySearchTreeWorkingWithBinaryFiles\Debug\binarySearchTreeWorkingWithBinaryFiles.lib" /MACHINE:X86 Debug\integerKeyAndCharPointer.obj
+         Debug\main.obj
+         Debug\readingInfoFromBinFileAndStandardInput.obj
+         Debug\stdafx.obj
+         Debug\tests.obj
+         binarySearchTreeWorkingWithBinaryFiles.vcxproj -> B:\c++\binarySearchTreeWorkingWithBinaryFiles\Debug\binarySearchTreeWorkingWithBinaryFiles.exe
+     1>Done Building Project "B:\c++\binarySearchTreeWorkingWithBinaryFiles\binarySearchTreeWorkingWithBinaryFiles\binarySearchTreeWorkingWithBinaryFiles.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.52
